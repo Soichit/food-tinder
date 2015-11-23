@@ -1,0 +1,58 @@
+
+body{
+	background-image: url('hawaii.jpg');
+	text-align: center;
+}
+
+.image:hover {
+border-radius:50%;
+box-shadow: 0 10px 6px -6px grey;
+}
+.image {
+-webkit-transition: all 0.7s ease;
+transition: all 0.7s ease;
+}
+
+#Header{
+	margin: 10px;
+	text-align: center;
+	font-size: 70px;
+	color: white;
+}
+
+a{
+	text-align: center;
+	font-size: 70px;
+	color: blue;
+	width: 300px;
+	border: 8px black;
+	background-color: white;
+	opacity: 0.6;
+	border-radius: 25px;
+	padding: 30px;
+	margin: 40px;
+}
+
+#Content{
+	text-align: center;
+	position: relative;
+	padding: 5px;
+	margin-top: 130px;
+	margin-bottom: 25px;
+}
+
+#zipcode{
+	margin-bottom: 150px;
+	font-size: 30px;
+}
+
+h4{
+	color: white;
+}
+
+#Footer{
+	border: solid 4px black;
+	background-color: black;
+	padding: 5px;
+	margin: 10px;
+}

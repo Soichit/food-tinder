@@ -1,0 +1,83 @@
+
+body{
+	background-image: url('argyle.png');
+	text-align: center;
+}
+
+img{
+	width: 400px;
+	height: 350px;
+	border-radius: 25px;
+}
+
+.image:hover {
+-webkit-box-shadow: 0px 0px 15px 10px rgba(255, 255, 255, .75);
+box-shadow: 0px 0px 15px 10px rgba(255, 255, 255, .75);
+}
+.image {
+-webkit-transition: all 0.7s ease;
+transition: all 0.7s ease;
+}
+
+.image2:hover {
+-webkit-transform:scale(1.2);
+transform:scale(1.2);
+}
+.image2 {
+-webkit-transition: all 0.7s ease;
+transition: all 0.7s ease;
+}
+
+p{
+	font-size: 40px;
+	color: black;
+}
+
+a{
+	font-size: 30px;
+	color: black;
+}
+
+label {
+	font-size: 20px;
+	position: absolute;
+    right: 10px;
+    top: 50px;
+}
+
+#home {
+	color: white;
+	font-size: 20px;
+	position: absolute;
+    left: 10px;
+    top: 50px;
+}
+
+#text3 {
+	border: solid 5px black;
+	background-color: green;
+	border-radius: 10px;
+	padding: 5px;
+}
+
+#Header{
+	text-align: center;
+	font-size: 30px;
+	color: white;
+}
+
+#Content{
+	text-align: center;
+	position: relative;
+	margin-bottom: 120px;
+}
+
+#Buy{
+	float: center;
+	text-align: center;
+	border: solid 8px white;
+	background-color: green;
+	padding: 5px;
+	margin: 10px;
+	width: 60px;
+}
